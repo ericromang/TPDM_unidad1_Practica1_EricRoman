@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#8BC34A"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hola, mi nombre es eric roman garcia landeros"
+        android:onClick="cambiarcolor"
+        android:id="@+id/textcolor"
+        android:layout_gravity="center"/>
+
+
+    <EditText
+        android:layout_margin="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="11"
+        android:background="#FFF"
+        android:layout_gravity="center"
+        android:id="@+id/txt1"
+        android:hint="Ingresa el primer numero"/>
+    <EditText
+        android:layout_margin="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="11"
+        android:background="#FFF"
+        android:layout_gravity="center"
+        android:id="@+id/txt2"
+        android:hint="Ingresa el segundo numero"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sumar numeros"
+        android:id="@+id/btnsuma"
+        android:layout_margin="10dp"
+        android:onClick="sumarnumeros"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="multiplicar numeros"
+        android:id="@+id/btnmulti"
+        android:layout_margin="10dp"
+        android:onClick="multiplicarnumeros"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comparar numeros"
+        android:id="@+id/btncomp"
+        android:layout_margin="10dp"
+        android:onClick="compararnumeros"/>
+</LinearLayout>
